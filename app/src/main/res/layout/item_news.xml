@@ -26,12 +26,16 @@
         android:id="@+id/newsWebView"
         android:layout_height="wrap_content"
         tools:ignore="WebViewLayout" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <view
         android:id="@+id/newsImgView"
-        android:src="@drawable/news_feed"
-        tools:ignore="ContentDescription" />
+        class="uk.co.senab.photoview.PhotoView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp" />
 
     <TextView
         android:layout_width="wrap_content"

@@ -40,14 +40,12 @@ class NewsAdapter(private val news: ArrayList<News?>) : RecyclerView.Adapter<New
             }
 
             holder.titletv?.visibility = View.GONE
-            holder.datetv?.visibility = View.GONE
             holder.descriptiontv?.visibility = View.GONE
             holder.moreLinktv?.visibility = View.GONE
         }
 
         holder.backBt!!.setOnClickListener {
             holder.titletv?.visibility = View.VISIBLE
-            holder.datetv?.visibility = View.VISIBLE
             holder.descriptiontv?.visibility = View.VISIBLE
             holder.moreLinktv?.visibility = View.VISIBLE
             holder.webNews!!.visibility = View.GONE
@@ -57,10 +55,9 @@ class NewsAdapter(private val news: ArrayList<News?>) : RecyclerView.Adapter<New
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var titletv: TextView? = null
-        var datetv: TextView? = null
         var newsImageView: PhotoView? = null
         var descriptiontv: TextView? = null
-        var moreLinktv: TextView? = null
+        var moreLinktv: Button? = null
         var webNews: WebView? = null
         var backBt: Button? = null
 
