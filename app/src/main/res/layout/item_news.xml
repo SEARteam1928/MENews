@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="2dp"
+    android:background="@drawable/news_item_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:background="#F00"
+        android:id="@+id/backBt"
+        android:text="BUTTON"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/newsWebView"
+        android:layout_height="wrap_content"
+        tools:ignore="WebViewLayout" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsImgView"
+        android:src="@drawable/news_feed"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textColor="#FFF"
+        android:text="TITLE"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:id="@+id/descr"
+        android:text="TITLE"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:id="@+id/openLinkBt"
+        android:background="#F00"
+        android:text="BUTTON"/>
+
+</LinearLayout>
