@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Desktop-MENews.iml" filepath="$PROJECT_DIR$/Desktop-MENews.iml" group="MENews" />
+      <module fileurl="file://$PROJECT_DIR$/app/Desktop-MENews-app.iml" filepath="$PROJECT_DIR$/app/Desktop-MENews-app.iml" group="MENews/app" />
       <module fileurl="file://$PROJECT_DIR$/MENews.iml" filepath="$PROJECT_DIR$/MENews.iml" group="MENews" />
       <module fileurl="file://$PROJECT_DIR$/app/MENews-app.iml" filepath="$PROJECT_DIR$/app/MENews-app.iml" group="MENews/app" />
+      <module fileurl="file://$PROJECT_DIR$/User-Desktop-MENews.iml" filepath="$PROJECT_DIR$/User-Desktop-MENews.iml" group="MENews" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MENews/app" />
     </modules>
   </component>
