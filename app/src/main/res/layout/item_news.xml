@@ -29,13 +29,24 @@
     <view
         android:id="@+id/newsImgView"
         class="uk.co.senab.photoview.PhotoView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_marginTop="15dp"
         android:layout_margin="5dp"
-        android:layout_height="wrap_content"
+        android:layout_height="150sp"
         android:layout_marginStart="8dp"
+        android:text="GSGD"
+        android:textColor="#000"
+        android:textSize="25sp"
         android:layout_marginLeft="0dp"
-        android:layout_marginBottom="0dp" />
+        android:background="#FAF"
+        android:layout_marginBottom="0dp" >
+    </view>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="#000">
+    </ImageView>
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,11 +54,10 @@
         android:id="@+id/title"
         android:textColor="#FFF"
         android:text="TITLE"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#FFF"
+        android:textColor="#000"
         android:id="@+id/descr"
         android:text="TITLE"/>
 

@@ -15,10 +15,382 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <androidx.recyclerview.widget.RecyclerView
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/circle1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/main_icon"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/circle2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/main_icon"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/circle3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/main_icon"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/circle4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/main_icon"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/news_item_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:background="@drawable/newbutton"
+                    android:id="@+id/backBt1"
+                    android:text="Свернуть"/>
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:id="@+id/newsWebView1"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+                <view
+                    android:id="@+id/newsImgView1"
+                    class="uk.co.senab.photoview.PhotoView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="150sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="#AAF"
+                    android:layout_marginBottom="0dp" >
+                </view>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title1"
+                    android:textColor="#000"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/descr1"
+                    android:text=""/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/openLinkBt1"
+                    android:paddingEnd="35sp"
+                    android:paddingTop="10sp"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/newbutton"
+                    android:text="Далее"
+                    android:gravity="end"
+                    android:paddingRight="35sp"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/news_item_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:background="@drawable/newbutton"
+                    android:id="@+id/backBt2"
+                    android:text="Свернуть"/>
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:id="@+id/newsWebView2"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+                <view
+                    android:id="@+id/newsImgView2"
+                    class="uk.co.senab.photoview.PhotoView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="150sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="#AAF"
+                    android:layout_marginBottom="0dp" >
+                </view>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title2"
+                    android:textColor="#000"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/descr2"
+                    android:text=""/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/openLinkBt2"
+                    android:paddingEnd="35sp"
+                    android:paddingTop="10sp"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/newbutton"
+                    android:text="Далее"
+                    android:gravity="end"
+                    android:paddingRight="35sp"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/news_item_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:background="@drawable/newbutton"
+                    android:id="@+id/backBt3"
+                    android:text="Свернуть"/>
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:id="@+id/newsWebView3"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+                <view
+                    android:id="@+id/newsImgView3"
+                    class="uk.co.senab.photoview.PhotoView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="150sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="#AAF"
+                    android:layout_marginBottom="0dp" >
+                </view>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title3"
+                    android:textColor="#000"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/descr3"
+                    android:text=""/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/openLinkBt3"
+                    android:paddingEnd="35sp"
+                    android:paddingTop="10sp"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/newbutton"
+                    android:text="Далее"
+                    android:gravity="end"
+                    android:paddingRight="35sp"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/news_item_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:background="@drawable/newbutton"
+                    android:id="@+id/backBt4"
+                    android:text="Свернуть"/>
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:id="@+id/newsWebView4"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+                <view
+                    android:id="@+id/newsImgView4"
+                    class="uk.co.senab.photoview.PhotoView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="150sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="#AAF"
+                    android:layout_marginBottom="0dp" >
+                </view>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title4"
+                    android:textColor="#000"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/descr4"
+                    android:text=""/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/openLinkBt4"
+                    android:paddingEnd="35sp"
+                    android:paddingTop="10sp"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/newbutton"
+                    android:text="Далее"
+                    android:gravity="end"
+                    android:paddingRight="35sp"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/news_item_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:background="@drawable/newbutton"
+                    android:id="@+id/backBt5"
+                    android:text="Свернуть"/>
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:id="@+id/newsWebView5"
+                    android:layout_height="wrap_content"
+                    tools:ignore="WebViewLayout" />
+                <view
+                    android:id="@+id/newsImgView5"
+                    class="uk.co.senab.photoview.PhotoView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="150sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="0dp"
+                    android:background="#AAF"
+                    android:layout_marginBottom="0dp" >
+                </view>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title5"
+                    android:textColor="#000"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/descr5"
+                    android:text=""/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:id="@+id/openLinkBt5"
+                    android:paddingEnd="35sp"
+                    android:paddingTop="10sp"
+                    android:textAlignment="viewEnd"
+                    android:background="@drawable/newbutton"
+                    android:text="Далее"
+                    android:gravity="end"
+                    android:paddingRight="35sp"
+                    tools:ignore="RtlSymmetry" />
+
+            </LinearLayout>
+
+<!--            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/lessonRecycler"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content" />-->
         </LinearLayout>
     </ScrollView>
 
